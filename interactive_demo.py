@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+"""
+Interactive demo to show how the Todo application works
+"""
+
+def show_demo():
+    print("TODO APPLICATION DEMO")
+    print("=====================")
+    print()
+    print("The Todo application is a command-line tool that helps you manage tasks.")
+    print("It has 5 main functions plus an exit option:")
+    print()
+    print("1. ADD TASK")
+    print("   - Creates a new task with a title you provide")
+    print("   - Automatically assigns a unique ID")
+    print("   - Starts with 'Pending' status")
+    print()
+    print("2. VIEW TASKS")
+    print("   - Shows all your current tasks")
+    print("   - Displays ID, title, and completion status")
+    print()
+    print("3. UPDATE TASK")
+    print("   - Changes the title of an existing task")
+    print("   - You specify which task by its ID")
+    print()
+    print("4. DELETE TASK")
+    print("   - Removes a task permanently")
+    print("   - You specify which task by its ID")
+    print()
+    print("5. TOGGLE COMPLETION")
+    print("   - Changes task status between 'Pending' and 'Completed'")
+    print("   - You specify which task by its ID")
+    print()
+    print("6. EXIT")
+    print("   - Closes the application")
+    print()
+    print("TO TRY THE APPLICATION:")
+    print("1. Save your work in any current applications")
+    print("2. Open a command prompt/terminal")
+    print("3. Navigate to this project directory")
+    print("4. Run: python -m src.cli.todo_app")
+    print("5. Follow the on-screen prompts")
+    print()
+    print("Remember: All tasks are stored in memory only and will be lost when you exit.")
+
+if __name__ == "__main__":
+    show_demo()
